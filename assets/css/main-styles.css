@@ -1,0 +1,246 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    /* font-family: ; */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px 0 24px;
+    width: 1440px;
+    height: 56px;
+    align-items: center;
+}
+
+.menu .left {
+    display: flex;
+    justify-content: space-between;
+    width: 146px;
+    height: 24px;
+    align-items: center;
+}
+
+.menu .left .menu-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.menu .left .youtube-logo {
+    width: 90px;
+    height: 20px;
+}
+
+.menu .center {
+    width: 404px;
+    height: 40px;
+    border: 1px solid #cccccc;
+}
+
+.menu .right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 130px;
+    height: 34px;
+}
+
+.menu .right img {
+    width: 24px;
+    height: 24px;
+}
+
+.menu .right .profile-avatar {
+    width: 34px;
+    height: 34px;
+}
+
+main { 
+    display: flex;
+    background-color: #F9F9F9;
+}
+
+.main-video {
+    width: 952px;
+    height: 756px;
+    margin-left: 75px;
+    margin-right: 16px;
+    margin-top: 28px;
+}
+
+.main-video .main-image {
+    width: 952px;
+    height: 537px;
+}
+
+.main-video .main-description h1 {
+    width: 871px;
+    height: 23px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23.44px;
+    margin: 16px 0;
+}
+
+.main-video .main-description .main-video-actions {
+    width: 902px;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    line-height: 16.41px;
+    margin-bottom: 16px;
+}
+
+.main-video .main-description .main-video-actions .channel-profile {
+    width: 160px;
+    height: 42px;
+    gap: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-video .main-description .main-video-actions .channel-profile .channel-avatar {
+    width: 42px;
+    height: 42px;
+}
+
+.main-video .main-description .main-video-actions .channel-profile .channel-details {
+    width: 106px;
+    height: 32px;
+}
+
+.main-video .main-description .main-video-actions .channel-profile .channel-details .channel-name {
+    font-weight: 600;
+}
+
+.main-video .main-description .main-video-actions .channel-profile .channel-details p {
+    font-weight: 400;
+    color: #515151;
+}
+
+.main-video .main-description .main-video-actions .subscribe {
+    width: 159px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #CC0000;
+    font-weight: 600;
+    color: #FFF;
+}
+
+.main-video .main-description .main-video-actions .like {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 63px;
+    height: 24px;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+.main-video .main-description .main-video-actions .dislike {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    height: 24px;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+.main-video .main-description .main-video-actions .share {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 115px;
+    height: 24px;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+.main-video .main-description .main-video-actions .download {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95px;
+    height: 24px;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+.main-video .main-description .video-statistics {
+    width: 391px;
+    height: 16px;
+    font-size: 14px;
+    line-height: 16.41px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.main-video .main-description .video-description {
+    width: 510px;
+    height: 64px;
+    font-size: 15.2px;
+    line-height: 16.41px;
+    color: #515151;
+    text-align: left;
+}
+
+.video-suggestions {
+    margin-top: 28px;
+}
+
+.video-list {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+
+.video-list img {
+    width: 160px;
+    height: 90px;
+}
+
+.video-list .video-details {
+    width: 196px;
+    height: 89px;
+}
+
+.video-list .video-details .video-title {
+    width: 196px;
+    max-height: 32px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.video-list .video-details .video-account {
+    font-size: 12px;
+    font-weight: 400;
+    width: 196px;
+    max-height: 14px;
+    line-height: 14.06px;
+    margin-top: 8px;
+    color: #515151;
+}
+
+.video-list .video-details .video-views {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    width: 196px;
+    max-height: 28px;
+    margin-top: 7px;
+}
